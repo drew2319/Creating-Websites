@@ -1,0 +1,27 @@
+/*Bad Code*/
+p{
+	color: red;
+}
+h1{
+	color: red;
+}
+h2{
+	color: red;
+}
+/*Good Code*/
+p, h1, h2{
+	color: red;
+}
+
+/*Example from website*/
+/* Bad */
+#container header nav {...}
+
+/* Good */
+.primary-nav {...}
+
+/* Bad */
+article.feat-post {...}
+
+/* Good */
+.feat-post {...}
